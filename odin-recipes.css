@@ -1,0 +1,76 @@
+body {font-family: Georgia, Garamond, sans-serif;
+display: flex;
+flex-wrap: wrap;
+margin-left: 100px;
+background-color:whitesmoke;}
+.div {
+    justify-content: flex-start;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: solid black 5px;
+    border-radius: 25px;
+    background-color: #B48045;
+    padding: 20px;
+    margin: 3px;
+    width: 25vw;
+}
+
+.description {
+    margin: 0 20px 0 20px;
+}
+
+#divingredients {
+    border-radius: 25px;
+    border: solid black 5px;
+    text-align: left;
+    padding: 25px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    background-color: #B48045;
+    width: 25vw;
+    justify-content: center;
+}
+
+#divsteps {
+    border-radius: 25px;
+    border: solid black 5px;
+    text-align: left;
+    padding: 25px;
+    margin: 3px;
+    display: flex;
+    flex-direction: column;
+    background-color: #B48045;
+    width: 52vw;
+    justify-content: center;
+}
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+
+.imgDiv {
+    width: 65vw;
+}
+.img {
+    width: 1000px;
+    height: auto;
+    border-radius: 25px;
+    border: solid;
+    border-width: 5px;
+    justify-content: center;
+    margin: 3px;
+}
+
+.sections {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.lists {
+    font-size: 14px;
+    text-align: left;
+}
